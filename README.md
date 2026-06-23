@@ -10,3 +10,5 @@ Numpy is required to run this game.
 
 Run this in your terminal to install Numpy:
 pip install numpy
+
+In order to run the game use a Python compiler.
