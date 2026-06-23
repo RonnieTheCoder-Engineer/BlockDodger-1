@@ -8,5 +8,5 @@ Make sure to survive for 60 seconds so Rob cools down.
 
 Numpy is required to run this game.
 
-Run this in your terminal:
+Run this in your terminal to install Numpy:
 pip install numpy
