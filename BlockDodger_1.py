@@ -1,3 +1,5 @@
+#Used AI to help me fix bugs and learn ways to make code compatible with Windows and Mac/Linux/Unix. Most of the code and idea for this game was made by me.
+
 import numpy as np
 import os
 import sys
