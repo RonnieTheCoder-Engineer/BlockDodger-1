@@ -93,8 +93,12 @@ while True:
 
     if current_move == 'a':
         board_x -= 1
+        if board_x < 0:
+            board_x = 0
     elif current_move == 'd':
         board_x += 1
+        if board_x > 9:
+            board_x = 9
     current_move = None
 
     grid[board_y, board_x] = 1
@@ -173,12 +177,5 @@ while True:
         os.system('clear' if os.name != 'nt' else 'cls')
         continue
 
-
-    current_move = None
-
-    if board_x > 9:
-        board_x = 9
-    elif board_x < 0:
-        board_x = 0
-    
+    current_move = None    
     time.sleep(0.05)
