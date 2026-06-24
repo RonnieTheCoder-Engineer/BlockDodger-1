@@ -24,7 +24,7 @@ How to Install Python with Numpy
 
   Using Command Prompt type:
 
-    cd Desktop/(**game_folder_name_here**)
+    cd Desktop/(game_folder_name_here)
 
   Then type:
 
@@ -52,7 +52,7 @@ How to Install Python with Numpy
 
   Using Terminal type:
 
-    cd Desktop/(**game_folder_name_here**)
+    cd Desktop/(game_folder_name_here)
 
   Then type:
 
@@ -75,7 +75,7 @@ How to Install Python with Numpy
 
   Using Terminal type:
 
-    cd Desktop/(**game_folder_name_here**)
+    cd Desktop/(game_folder_name_here)
 
   Then type:
 
