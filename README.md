@@ -8,7 +8,7 @@ Make sure to survive for 60 seconds so Rob cools down.
 
 How to Install Python with Numpy
 
-For Windows:
+**For Windows:**
   Go to python.org and click Download Python.
 
   Run the downloaded installer.
@@ -31,7 +31,7 @@ For Windows:
 
 
 
-For Mac:
+**For Mac:**
   Open the Terminal app.
 
   Check if Python is already there by typing. 
@@ -57,7 +57,7 @@ For Mac:
     python3 BlockDodger_1.py
 
 
-  For Linux/Unix:
+  **For Linux/Unix:**
   Open your Terminal.
 
   Update your package list and install Python's package manager (pip) by typing:
