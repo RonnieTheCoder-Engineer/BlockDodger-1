@@ -36,7 +36,7 @@ For Mac:
 
   Check if Python is already there by typing. 
   
-      python3 --version 
+    python3 --version 
   
   If a prompt asks you to install Xcode Command Line Tools, click Install.
 
