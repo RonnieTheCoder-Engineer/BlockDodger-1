@@ -55,7 +55,7 @@ def check_windows_input():
                     elif arrow_code == b'M':
                         current_move = 'd'
                 else:
-                    key = key_byte.getch().decode('utf-8', errors = 'ignore').lower()
+                    key = key_byte.decode('utf-8', errors = 'ignore').lower()
                     if key in ['a', 'd', 'y', 'n']:
                         current_move = key
             except Exception:
@@ -87,6 +87,15 @@ while True:
         fall_delay = 0.15
     else:
         fall_delay = 0.25
+
+    if sys.platform == "win32":
+        check_windows_input()
+
+    if current_move == 'a':
+        board_x -= 1
+    elif current_move == 'd':
+        board_x += 1
+    current_move = None
 
     grid[board_y, board_x] = 1
     grid[fall_obj_y, fall_obj_x] = 2
@@ -161,18 +170,9 @@ while True:
         start_time = time.time()
         last_fall_time = time.time()
         current_move = None
-        continue
-
         os.system('clear' if os.name != 'nt' else 'cls')
         continue
 
-    if sys.platform == "win32":
-        check_windows_input()
-
-    if current_move == 'a':
-        board_x -= 1
-    elif current_move == 'd':
-        board_x += 1
 
     current_move = None
 
