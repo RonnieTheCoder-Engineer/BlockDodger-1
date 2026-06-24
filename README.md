@@ -17,17 +17,17 @@ For Windows:
 
   Open your Command Prompt and type:
 
-    'pip install numpy'
+    pip install numpy
 
   Download the Game File
 
   Using Command Prompt type:
 
-    'cd Desktop/(game_folder_name_here)'
+    cd Desktop/(game_folder_name_here)
 
   Then type:
 
-    'python BlockDodger_1.py'
+    python BlockDodger_1.py
 
 
 
@@ -40,17 +40,17 @@ For Mac:
 
   Once installed, open Terminal and type:
 
-    'pip3 install numpy'
+    pip3 install numpy
 
   Download the Game File
 
   Using Terminal type:
 
-    'cd Desktop/(game_folder_name_here)'
+    cd Desktop/(game_folder_name_here)
 
   Then type:
 
-    'python3 BlockDodger_1.py'
+    python3 BlockDodger_1.py
 
 
   For Linux/Unix:
@@ -58,19 +58,19 @@ For Mac:
 
   Update your package list and install Python's package manager (pip) by typing:
 
-    'sudo apt update && sudo apt install python3-pip -y'
+    sudo apt update && sudo apt install python3-pip -y
 
   Once that finishes, install NumPy:
 
-    'pip3 install numpy'
+    pip3 install numpy
 
   Download the Game File
 
   Using Terminal type:
 
-    'cd Desktop/(game_folder_name_here)'
+    cd Desktop/(game_folder_name_here)
 
   Then type:
 
-    'python3 BlockDodger_1.py'
+    python3 BlockDodger_1.py
 
