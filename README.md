@@ -9,68 +9,68 @@ Make sure to survive for 60 seconds so Rob cools down.
 How to Install Python with Numpy
 
 For Windows:
-Go to python.org and click Download Python.
+  Go to python.org and click Download Python.
 
-Run the downloaded installer.
+  Run the downloaded installer.
 
-Check the box at the bottom that says "Add python.exe to PATH" before clicking Install.
+  Check the box at the bottom that says "Add python.exe to PATH" before clicking Install.
 
-Open your Command Prompt and type:
+  Open your Command Prompt and type:
 
-'pip install numpy'
+    'pip install numpy'
 
-Download the Game File
+  Download the Game File
 
-Using Command Prompt type:
+  Using Command Prompt type:
 
-'cd Desktop/(game_folder_name_here)'
+    'cd Desktop/(game_folder_name_here)'
 
-Then type:
+  Then type:
 
-'python BlockDodger_1.py'
+    'python BlockDodger_1.py'
 
 
 
 For Mac:
-Open the Terminal app.
+  Open the Terminal app.
 
-Check if Python is already there by typing 'python3 --version'. If a prompt asks you to install Xcode Command Line Tools, click Install.
+  Check if Python is already there by typing 'python3 --version'. If a prompt asks you to install Xcode Command Line Tools, click Install.
 
-Alternatively, download the Mac installer from python.org and run it.
+  Alternatively, download the Mac installer from python.org and run it.
 
-Once installed, open Terminal and type:
+  Once installed, open Terminal and type:
 
-'pip3 install numpy'
+    'pip3 install numpy'
 
-Download the Game File
+  Download the Game File
 
-Using Terminal type:
+  Using Terminal type:
 
-'cd Desktop/(game_folder_name_here)'
+    'cd Desktop/(game_folder_name_here)'
 
-Then type:
+  Then type:
 
-'python3 BlockDodger_1.py'
+    'python3 BlockDodger_1.py'
 
 
-For Linux/Unix:
-Open your Terminal.
+  For Linux/Unix:
+  Open your Terminal.
 
-Update your package list and install Python's package manager (pip) by typing:
+  Update your package list and install Python's package manager (pip) by typing:
 
-'sudo apt update && sudo apt install python3-pip -y'
+    'sudo apt update && sudo apt install python3-pip -y'
 
-Once that finishes, install NumPy:
+  Once that finishes, install NumPy:
 
-'pip3 install numpy'
+    'pip3 install numpy'
 
-Download the Game File
+  Download the Game File
 
-Using Terminal type:
+  Using Terminal type:
 
-'cd Desktop/(game_folder_name_here)'
+    'cd Desktop/(game_folder_name_here)'
 
-Then type:
+  Then type:
 
-'python3 BlockDodger_1.py'
+    'python3 BlockDodger_1.py'
 
