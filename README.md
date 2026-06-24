@@ -9,6 +9,9 @@ Make sure to survive for 60 seconds so Rob cools down.
 How to Install Python with Numpy
 
 
+
+
+
 **For Windows:**
 
   Go to python.org and click Download Python.
