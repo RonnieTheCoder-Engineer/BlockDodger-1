@@ -19,7 +19,7 @@ For Windows:
 
     pip install numpy
 
-  Download the Game File
+  Download the Game File.
 
   Using Command Prompt type:
 
@@ -34,7 +34,11 @@ For Windows:
 For Mac:
   Open the Terminal app.
 
-  Check if Python is already there by typing 'python3 --version'. If a prompt asks you to install Xcode Command Line Tools, click Install.
+  Check if Python is already there by typing. 
+  
+      python3 --version 
+  
+  If a prompt asks you to install Xcode Command Line Tools, click Install.
 
   Alternatively, download the Mac installer from python.org and run it.
 
@@ -42,7 +46,7 @@ For Mac:
 
     pip3 install numpy
 
-  Download the Game File
+  Download the Game File.
 
   Using Terminal type:
 
@@ -64,7 +68,7 @@ For Mac:
 
     pip3 install numpy
 
-  Download the Game File
+  Download the Game File.
 
   Using Terminal type:
 
